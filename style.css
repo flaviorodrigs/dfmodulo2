@@ -6,7 +6,7 @@
 
 :root{
     --corfund: rgba(204, 202, 202, 0.541);
-    --corheader: rgba(129, 127, 127, 0.897);
+    --corheader: rgba(104, 103, 103, 0.897);
 }
 
 body{
@@ -24,7 +24,7 @@ p{
     text-align: justify;
 }
 header{
-    background-image: linear-gradient(to right, var(--corheader) , rgba(129, 127, 127, 0.562));
+    background-image: linear-gradient(to right, var(--corheader) , rgba(102, 101, 101, 0.562));
     padding: 25px;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100px;
@@ -46,6 +46,7 @@ nav a{
 nav > a:hover{
     background-color: var(--corheader);
     color: black;
+    font-weight: bold;
     text-shadow: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -141,7 +142,8 @@ aside p{
 }
 p{
     padding: 5px;
+    line-height: 1.4em;
 }
 .externo::after{
-    content: '\00a0 \1F517';
+    content: '\1F517';
 }
