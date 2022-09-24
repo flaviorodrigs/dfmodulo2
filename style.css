@@ -46,7 +46,6 @@ nav a{
 nav > a:hover{
     background-color: var(--corheader);
     color: black;
-    font-weight: bold;
     text-shadow: none;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
