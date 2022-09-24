@@ -22,7 +22,6 @@ h2{
 p{
     text-indent: 25px;
     text-align: justify;
-    line-height: 1em;
 }
 header{
     background-image: linear-gradient(to right, var(--corheader) , rgba(129, 127, 127, 0.562));
