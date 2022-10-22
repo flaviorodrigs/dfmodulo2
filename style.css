@@ -107,7 +107,7 @@ img{
 
 div.video{
     background-color: aqua;
-    
+    box-shadow: 2px 3px 4px black;
     padding-bottom: 56.2%;
     position: relative;
 }
